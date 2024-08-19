@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class main{
+    public static void main(String args[]){
+        System.out.print("Enter a paragraph:\n");
+        Scanner sc=new Scanner(System.in);
+        String paragraph=sc.nextLine();
+        int wordsCount=paragraph.trim().split("\\s+").length;
+        System.out.println("Number of Words:");
+        System.out.print(wordsCount);  
+    }
+}
